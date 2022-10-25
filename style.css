@@ -4,6 +4,7 @@ main {
 
 header {
     background-color: #25274D;
+    color: white;
 }
 
 article {
@@ -12,4 +13,9 @@ article {
 
 section {
     background-color: white;
+}
+
+footer {
+    background-color: #25274D;
+    color: white;
 }
