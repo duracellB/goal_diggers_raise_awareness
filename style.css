@@ -1,12 +1,12 @@
 
 
 main {
-    background-color: #29648A;
+    /*background-color: #29648A;*/
     height: 100%;
 }
 
 .navbar {
-    background-color: #25274D;
+    background-color: #2E9CCA;
     color: white;
 }
 
@@ -31,14 +31,19 @@ img {
 
 
 article {
-    background-color: #2E9CCA;
+    background-color: #25274D;
+    color: white;
+    
     margin-top: 1%;
 }
 
 section {
-    background-color: #29648A;
     height: 30%;
 }
+
+/*#card:hover {*/
+/*    transform:scale(1.1);*/
+/*}*/
 
 
 footer {
