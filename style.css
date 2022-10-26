@@ -1,21 +1,50 @@
+
+
 main {
     background-color: #29648A;
+    height: 100%;
 }
 
-header {
+.navbar {
     background-color: #25274D;
     color: white;
 }
 
+.nav-link {
+    color: white !important;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+#navbarSupportedContent {
+    justify-content: flex-end;
+}
+
+img {
+    opacity:50%;
+    width: 100%;
+    margin-top: 1%;
+}
+
+
+
 article {
     background-color: #2E9CCA;
+    margin-top: 1%;
 }
 
 section {
-    background-color: white;
+    background-color: #29648A;
+    height: 30%;
 }
+
 
 footer {
     background-color: #25274D;
     color: white;
 }
+
+
+
