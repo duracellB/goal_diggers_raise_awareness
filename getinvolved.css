@@ -3,11 +3,19 @@
 }
 
 body{
-    background-color: #464866;
+    /*background-color: #464866;*/
 }
 
-h1{
-    color: black;
+.navbar {
+    background-color: #29648A;
+}
+
+.nav-link{
+    color: #AAABB8;
+}
+
+.navbar-brand{
+    color: #AAABB8;
 }
 
 aside{
