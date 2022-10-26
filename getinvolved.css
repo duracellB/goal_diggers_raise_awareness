@@ -1,3 +1,19 @@
+*{
+    color: white;
+}
+
 body{
     background-color: #464866;
+}
+
+aside{
+    background-color: #AAABB8;
+}
+
+section{
+    background-color: #25274D;
+}
+
+article{
+    background-color: #25274D;
 }
