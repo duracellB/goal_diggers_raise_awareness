@@ -7,15 +7,25 @@ body{
 }
 
 .navbar {
-    background-color: #29648A;
+    background-color: #0d6efd;
+}
+
+i{
+    color:white;
 }
 
 .nav-link{
-    color: #AAABB8;
+    color: white;
+}
+
+.nav-link.active{
+    color: white !important;
 }
 
 .navbar-brand{
-    color: #AAABB8;
+    font-size: 3em !important;
+    padding: 0 1%;
+    color: white !important;
 }
 
 aside{
@@ -28,4 +38,8 @@ section{
 
 article{
     background-color: #AAABB8;
+}
+
+.nav-pills .nav-link.active{
+    background-color: #0d6efd;
 }
