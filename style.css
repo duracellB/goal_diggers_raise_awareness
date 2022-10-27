@@ -10,13 +10,8 @@ main {
     color: white;
 }
 
-.nav-link {
+.nav-link.active {
     color: white !important;
-}
-
-.nav-link:hover {
-   text-decoration:underline; 
-      cursor: pointer; 
 }
 
 .nav-item:hover {
@@ -26,6 +21,8 @@ main {
 
 .navbar-brand {
     color: white !important;
+    font-size: 3em !important;
+    padding: 0 1%;
 }
 
 #navbarSupportedContent {

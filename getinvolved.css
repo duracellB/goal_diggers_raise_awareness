@@ -20,6 +20,10 @@ i{
     color: white;
 }
 
+.nav-link.active{
+    color: white !important;
+}
+
 .navbar-brand{
     font-size: 3em !important;
     padding: 0 1%;
