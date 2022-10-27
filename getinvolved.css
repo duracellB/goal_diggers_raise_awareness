@@ -45,3 +45,11 @@ article{
 .nav-pills .nav-link.active{
     background-color: #0d6efd;
 }
+
+@media only screen and (max-width: 412px){
+    .navbar-brand{
+        font-size: 2em !important;
+        padding: 0 1%;
+        color: white;
+    }
+}

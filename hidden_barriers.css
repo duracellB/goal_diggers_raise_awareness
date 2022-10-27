@@ -82,11 +82,26 @@ i{
     padding: 1em;
 }
 
-
-
-
-
 /*for the active link*/
 .nav-pills .nav-link.active{
     background-color: #0d6efd;
+}
+
+
+@media only screen and (max-width: 412px){
+    
+    .navbar-brand{
+        font-size: 2em;
+        padding: 0 1%;
+        color: white;
+    }
+    
+    .typewriter h1 {
+        font-size: 1.5em;
+    }
+    
+    .definition{
+        margin: 0;
+        font-size: large;
+    }
 }
