@@ -6,12 +6,17 @@ main {
 }
 
 .navbar {
-    background-color: #2E9CCA;
+    background-color: #0d6efd;
     color: white;
 }
 
 .nav-link {
     color: white !important;
+}
+
+.nav-link:hover {
+   text-decoration:underline; 
+      cursor: pointer; 
 }
 
 .nav-item:hover {
@@ -30,10 +35,14 @@ main {
 img {
     opacity:50%;
     width: 100%;
+    /*height:100%;*/
     margin-top: 1%;
 }
 
-
+.carousel-inner > .carousel-item > img {
+  width:530px !important;
+  height:340px !important;
+}
 
 article {
     background-color: #25274D;
@@ -56,9 +65,20 @@ section {
 
 
 footer {
-    background-color: #25274D;
-    color: white;
+    
+    color: #0d6efd;
 }
 
+.display-1 {
+    color:white;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.display-6 {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color:white;
+}
 
 
