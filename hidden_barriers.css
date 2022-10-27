@@ -3,7 +3,11 @@ body{
 }
 
 .navbar {
-    background-color: #29648A;
+    background-color: #0d6efd;
+}
+
+i{
+    color:white;
 }
 
 .nav-link{
@@ -11,6 +15,8 @@ body{
 }
 
 .navbar-brand{
+    font-size: 3em;
+    padding: 0 1%;
     color: white;
 }
 
@@ -19,9 +25,35 @@ body{
 /*}*/
 
 .definition{
-    background-color: #AAABB8;
-    margin: 2em;
+    /*background-color: #AAABB8;*/
+    color: white;
+    font-size: x-large;
+    margin: 5em 2em;
     padding: 2em;
+}
+
+.typewriter h1 {
+    font-size: 2em;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  /*margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }
 
 .social{
@@ -56,5 +88,5 @@ body{
 
 /*for the active link*/
 .nav-pills .nav-link.active{
-    background-color: #29648A;
+    background-color: #0d6efd;
 }
