@@ -10,6 +10,10 @@ main {
     color: white;
 }
 
+.top.nav-link{
+    font-size: 1.5em !important;
+}
+
 .nav-link.active {
     color: white !important;
 }

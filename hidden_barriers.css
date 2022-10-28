@@ -12,6 +12,11 @@ i{
 
 .nav-link{
     color: white;
+    font-size: 1.5em;
+}
+
+.nav-link.bottom{
+    font-size: 1.25em;
 }
 
 .navbar-brand{
@@ -81,7 +86,7 @@ i{
 }
 
 .legislative{
-    background-color: #464866;
+    background-color: rgba(70, 72, 102, 0.5);
     color: #E9ECF5;
     padding: 1em;
     margin: 1em auto;
