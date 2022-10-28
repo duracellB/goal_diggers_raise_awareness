@@ -56,10 +56,22 @@ i{
   50% { border-color: orange; }
 }
 
+.socialAndLegislative{
+    margin: 5em 2em 1em 2em;
+    
+}
+
+
+
 .social{
-    background-color: #2E9CCA;
+    background-color: rgba(46, 156, 202,0.25);
     padding: 1em;
-    margin: 1em auto;
+    margin: 5em 0;
+    font-size: 1.3em;
+}
+
+.socialh1{
+    color: white;
 }
 
 .part{
@@ -73,10 +85,29 @@ i{
     color: #E9ECF5;
     padding: 1em;
     margin: 1em auto;
+    font-size: 1.3em;
 }
 
+
+
+.figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1em 1em 1rem;
+    box-sizing: content-box;
+    height: 50vh;
+    width: 95%;
+}
+
+iframe{
+    height: 50vh;
+    width: 100%;
+}
+
+
 .part2{
-    background-color: #AAABB8;
+    background-color: #E9ECF5;
     color: black;
     margin: 1em;
     padding: 1em;
@@ -89,6 +120,13 @@ i{
 
 
 @media only screen and (max-width: 412px){
+    
+    .container-fluid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
     
     .navbar-brand{
         font-size: 2em;
@@ -103,5 +141,26 @@ i{
     .definition{
         margin: 0;
         font-size: large;
+    }
+    
+    .socialAndLegislative{
+        margin: 0;
+    }
+    
+    .social{
+        margin: 0;
+        font-size: medium;
+    }
+    
+    .legislative{
+        font-size: medium;
+    }
+    
+    figure{
+        height: auto !important;
+    }
+    
+    iframe{
+        height: auto;
     }
 }
