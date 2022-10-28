@@ -7,6 +7,10 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="stylesheet" href="./hidden_barriers.css" type="text/css" />
   <script src="https://kit.fontawesome.com/732813c47a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--aos animate on scroll-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <title>Brighter Tomorrow</title>
 </head>
 
@@ -42,12 +46,12 @@
 
         <section class="socialAndLegislative">
           <article class="social">
-            <h2 class="socialh1">Social Barriers</h2>
-            <div class="part">
+            <h2 class="socialh1" data-aos="fade-left">Social Barriers</h2>
+            <div class="part" data-aos="fade-right" data-aos-duration="2000">
               <p>Employment disparities start early - "An analysis of the 2014 Survey of Income and Program Participation reveals that black, Hispanic or Latino (referred to as Latinx in this post), and Asian youth were employed at much lower rates than white youth. And black and Latinx youth who did work were paid less than their white peers."</p>
               <a href="https://www.urban.org/urban-wire/people-color-employment-disparities-start-early">Read more...</a>
             </div>
-            <div class="part">
+            <div class="part" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1000">
               <p>"Marginalization deepens hardship and reduces life chances, perpetuating a vicious cycle of economic and social exclusion."</p>
               <ul>
                 <li>Women’s pay still lags behind their male counterparts.</li>
@@ -60,13 +64,13 @@
           </article>
 
           <article class="legislative">
-            <h2>Legislative Barriers</h2>
+            <h2 data-aos="fade-left">Legislative Barriers</h2>
             <div class="sideBySide">
-              <figure class="figure">
+              <figure class="figure" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="250">
                 <iframe class="figure-img rounded" src="https://www.youtube.com/embed/D9N7QaIOkG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <figcaption class="figure-caption">Why is it so hard to escape poverty? Ted-Talk</figcaption>
               </figure>
-              <div class="part2">
+              <div class="part2" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="400">
                 <p>Poverty results from structual barriers: </p>
                 <ul>
                   <li>In all but two states, families with earnings at the federal poverty level earn too much to qualify for cash assistance through TANF. For every 100 families experiencing poverty in 2019, only 23 received TANF cash assistance. </li>
@@ -77,7 +81,7 @@
                 </ul>
               </div>
             </div>
-            <div class="part2">
+            <div class="part2" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="50">
               <h6>Exculsionary Zoning</h6>
               <p>Exclusionary zoning is an oft-mentioned policy that keeps affordable housing out of neighborhoods through land use and building code requirements. It’s a legal practice that has been used for decades to keep lower-income people—disproportionately racial minorities—out of wealthy and middle-class neighborhoods across the country, and prevents these low-income families from having access to the education and employment opportunities typically found in wealthier neighborhoods.</p>
             </div>
@@ -94,6 +98,7 @@
       </footer>
     </div>
   </div>
+  <script> AOS.init(); </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 
