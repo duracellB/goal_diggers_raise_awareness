@@ -10,6 +10,10 @@ main {
     color: white;
 }
 
+.top.nav-link{
+    font-size: 1.5em !important;
+}
+
 .nav-link.active {
     color: white !important;
 }
@@ -30,7 +34,7 @@ main {
 }
 
 img {
-    opacity:50%;
+    opacity:75%;
     width: 100%;
     /*height:100%;*/
     margin-top: 1%;
@@ -42,7 +46,7 @@ img {
 }
 
 article {
-    background-color: #25274D;
+    /*background-color: #25274D;*/
     color: white;
     
     margin-top: 1%;
@@ -58,7 +62,25 @@ section {
 
 #card:hover {
     transform:scale(1.1);
+    
 }
+
+/*#card {*/
+/*   animation: myAnim1 1s ease 0s 1 normal forwards;*/
+/*}*/
+/*@keyframes myAnim1 {*/
+/*	0% {*/
+/*		opacity: 0;*/
+/*		transform: translateX(-250px);*/
+/*	}*/
+
+/*	100% {*/
+/*		opacity: 1;*/
+/*		transform: translateX(0);*/
+/*	}*/
+/*}*/
+
+
 
 
 footer {
@@ -78,4 +100,36 @@ footer {
     color:white;
 }
 
+.display-1, .display-6 {
+    animation: myAnim 3s ease 0s 1 normal forwards;
+}
 
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@media only screen and (max-width: 412px){
+    
+    .container-fluid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .navbar-brand{
+        font-size: 2em !important;
+        padding: 0 1%;
+        color: white;
+    }
+}
+
+.p1 {
+    font-size: 1.5rem;
+}
